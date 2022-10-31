@@ -1,7 +1,7 @@
 {
   "general": {
-    "model": "DS3622xs+",
-    "version": "7.1.1-42951",
+    "model": "DS3615xs",
+    "version": "7.1.1-42962",
     "smallfixnumber": "0",
     "zimghash": "",
     "rdhash": "",
@@ -19,20 +19,17 @@
     "ipproxy": ""
   },
   "extra_cmdline": {
-    "pid": "0xa4a5",
-    "vid": "0x0525",
-    "sn": "",
-    "mac1": "",
-    "netif_num": "1",
-    "SataPortMap": "58",
-    "DiskIdxMap": "0A00"
+    "vid": "0x46f4",
+    "pid": "0x0001",
+    "sn": "1130LWN123456",
+    "mac1": "001132123456"
   },
   "synoinfo": {
-    "internalportcfg": "0xffff",
-    "maxdisks": "16",
-    "support_bde_internal_10g": "no",
-    "support_disk_compatibility": "no",
-    "support_memory_compatibility": "no"
+    "supportsystemperature": "no",
+    "supportsystempwarning": "no"
+    "esataportcfg": "0xff000",
+    "usbportcfg=": "0x300000",
+    "internalportcfg": "0xfff"
   },
   "ramdisk_copy": {}
 }
